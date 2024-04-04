@@ -16,4 +16,6 @@ int main() {
 		H -= 24;
 	}
 	printf("%d %d", H, M);
+
+	return 0;
 }
