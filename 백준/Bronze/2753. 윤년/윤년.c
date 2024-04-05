@@ -8,4 +8,6 @@ int main() {
 		printf("1 \n", year);
 	else
 		printf("0 \n", year);
+
+	return 0;
 }
