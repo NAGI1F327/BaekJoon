@@ -14,5 +14,6 @@ int main() {
 		}
 	}
 	printf("%d %d", H, M);
+	
 	return 0;
 }
