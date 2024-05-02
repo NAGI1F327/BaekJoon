@@ -14,6 +14,4 @@ int main() {
 		printf("D \n", score);
 	else
 		printf("F \n", score);
-
-	return 0;
 }
