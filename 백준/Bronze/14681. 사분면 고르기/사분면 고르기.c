@@ -13,6 +13,4 @@ int main() {
 		printf("3", x, y);
 	else
 		printf("4", x, y);
-	
-	return 0;
 }
