@@ -16,6 +16,5 @@ int main() {
 		printf("%d \n", 1000 + b * 100);
 	else   // 전부 다를 때
 		printf("%d \n", MAX(MAX(a, b), c) * 100);
-	
 	return 0;
 }
