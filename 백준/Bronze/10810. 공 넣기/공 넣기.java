@@ -6,7 +6,7 @@ public class Main {
         int N = sc.nextInt();
         int M = sc.nextInt();
         
-        int Box[] = new int[N];
+        int[] Box = new int[N];
         
         for (int a = 0; a < M; a++) {
             int i = sc.nextInt();
@@ -18,8 +18,8 @@ public class Main {
             }
         }
         
-        for (int c = 0; c < Box.length; c++) {
-            System.out.print(Box[c] + " ");
+        for (int basket : Box) {
+            System.out.print(basket + " ");
         }
         
         sc.close();
