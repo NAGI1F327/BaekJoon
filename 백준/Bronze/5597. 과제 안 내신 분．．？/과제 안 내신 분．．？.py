@@ -1,9 +1,9 @@
-submitted = [False] * 30
+submitted = [False] * 31
 
 for _ in range(28):
     number = int(input())
-    submitted[number - 1] = True
+    submitted[number] = True
 
-for i in range(30):
+for i in range(1, 31):
     if not submitted[i]:
-        print(i + 1)
+        print(i)
