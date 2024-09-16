@@ -4,10 +4,9 @@ c = int(input())
 
 if a + b + c != 180:
     print("Error")
-elif a == b and b == c:
+elif a == b == c:
     print("Equilateral")
+elif a == b or b == c or a == c:
+    print("Isosceles")
 else:
-    if a == b or b == c or a == c:
-        print ("Isosceles")
-    else:
-        print("Scalene")
+    print("Scalene")
