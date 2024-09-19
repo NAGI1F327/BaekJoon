@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-	int a, b, c;
+	int A, B, C;
 
-	scanf("%d %d %d", &a, &b, &c);
-	printf("%d \n", (a + b) % c);
-	printf("%d \n", ((a % c) + (b % c)) % c);
-	printf("%d \n", (a * b) % c);
-	printf("%d \n", ((a % c) * (b % c)) % c);
+	scanf("%d %d %d", &A, &B, &C);
+	printf("%d \n", (A + B) % C);
+	printf("%d \n", ((A % C) + (B % C)) % C);
+	printf("%d \n", (A * B) % C);
+	printf("%d \n", ((A % C) * (B % C)) % C);
 
 	return 0;
 }
