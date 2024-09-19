@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 int main() {
-	int n;
+	int y;
 
-	scanf("%d", &n);
-	printf("%d", n - 543);
+	scanf("%d", &y);
+	printf("%d", y - 543);
 
 	return 0;
 }
