@@ -3,5 +3,5 @@ N = int(input())
 i = 1
 while i <= N:
     A, B = map(int, input().split())
-    print("Case #", i, ": ", A, " + ", B, " = ", A + B, sep="")
+    print(f"Case #{i}: {A} + {B} = {A + B}")
     i += 1
