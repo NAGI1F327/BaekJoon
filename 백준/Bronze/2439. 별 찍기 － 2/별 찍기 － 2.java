@@ -1,17 +1,15 @@
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String args[]) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-    
+
         for (int i = 1; i <= N; i++) {
-		    for (int j = 0; j < N - i; j++)
-		    	System.out.print(" ");
-		    for (int k = 0; k < i; k++)
-		    	System.out.print("*");
-		    System.out.print("\n");
-    	}
-    sc.close();
+            System.out.print(" ".repeat(N - i));
+            System.out.print("*".repeat(i));
+            System.out.println();
+        }
+        sc.close();
     }
 }
