@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-	int a, b, i, t;
-	scanf("%d", &t);
+	int A, B, T, i;
+	scanf("%d", &T);
 
-	for(i = 0; i < t; i++) {
-		scanf("%d %d", &a, &b);
-		printf("%d \n", a + b);
+	for(i = 0; i < T; i++) {
+		scanf("%d %d", &A, &B);
+		printf("%d \n", A + B);
 	}
 	return 0;
 }
