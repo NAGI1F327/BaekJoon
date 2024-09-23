@@ -1,4 +1,6 @@
 N = int(input())
 
-for i in range(1, N + 1):
+i = 1
+while i <= N:
     print(" " * (N - i) + "*" * i)
+    i += 1
