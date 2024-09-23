@@ -1,8 +1,5 @@
 N = int(input())
 
-i = 1
-mul = 1
-while i <= 9:
-    mul = N * i
-    i = i + 1
-    print(N, "*", i-1, "=", mul)
+for i in range(1, 10):
+	mul = N * i
+	print(N, "*", i, "=", mul)
