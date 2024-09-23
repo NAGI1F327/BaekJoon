@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	int X, N, a, b;
-	int i = 0;
+	int X, N, a, b, i;
     
 	scanf("%d \n %d", &X, &N);
 
