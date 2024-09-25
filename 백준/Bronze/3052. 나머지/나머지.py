@@ -10,4 +10,4 @@ for number in numbers:
     remainder = number % 42
     remainders.add(remainder)
 
-print(len(remainders))  # len: 길이 또는 크기 반환(원소 갯수)
+print(len(remainders))
